@@ -1,8 +1,7 @@
-language: generic
-
-deploy:
-  provider: pages
-  skip_cleanup: true
-  github_token: https://6150c382fe87b8041a195096c4a04f1fe35bea71@github.com/willyelns/gerencia-heroku #Token conta
-  on:
-    branch: master
+language: php
+php:
+  - '5.4'
+  - '5.5'
+  - '5.6'
+  - '7.0'
+  - '7.1'
