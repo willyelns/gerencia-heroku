@@ -1,0 +1,8 @@
+language: generic
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: 82107b24a1404f05ddc075098395dbb3f3a8ff71 #Token conta
+  on:
+    branch: master
