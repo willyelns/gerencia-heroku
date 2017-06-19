@@ -9,8 +9,7 @@
 
 require_once 'Route.php';
 
-class Bus
-{
+class Bus_Model{
     public $busCompany;
     public $nextDeparture;
     public $prevDeparture;

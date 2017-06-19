@@ -6,7 +6,7 @@
  * Date: 6/19/17
  * Time: 12:37 AM
  */
-require_once 'Bus.php';
+require_once 'Bus_Model.php';
 class BusController
 {
     function verifyNextDir(Bus $bus):array{

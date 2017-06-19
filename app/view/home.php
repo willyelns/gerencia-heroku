@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Countdown landing page Bootstrap template</title>
+    <title>Guia de Horários do Circular UFRN</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -14,9 +14,9 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Pacifico">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700">
     <!-- Theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="assets/css/style.default.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
-    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
     <!-- Favicon-->
     <link rel="shortcut icon" href="favicon.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
@@ -74,9 +74,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="js/jquery.cookie.js"></script>
-    <script src="js/jquery.countdown.min.js"></script>
-    <script src="js/front.js"></script>
+    <script src="assets/js/jquery.cookie.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/front.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
