@@ -30,7 +30,7 @@
         </div>
         <!--/. inverso -->
         <div class="mailing-list">
-          <h5 class="mailing-list-heading" style="font-size: 2.5rem"><a style="color: white" href="">Click aqui para ver a lista completa dos horários</a></h5>
+          <h5 class="mailing-list-heading" style="font-size: 2.5rem"><a style="color: white" href="/app/view/lista-circulares.php">Click aqui para ver a lista completa dos horários</a></h5>
       </div>
       <div class="footer">
         <div class="container">
