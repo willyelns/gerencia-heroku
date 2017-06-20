@@ -41,6 +41,14 @@
                             </h4>
                     </div>
                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="text-center">Inverso</h2>
+                    <div class="text-center" id="lista-circular-inverso">
+                            <h4 v-for="item in lista">
+                                {{item.hora}}:{{item.minuto}} ({{item.empresa}})
+                            </h4>
+                    </div>
+                </div>
             </div>
         </div>
 
