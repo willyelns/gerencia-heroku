@@ -2,6 +2,12 @@ language: php
 dist: trusty
 php:
 - 5.5
-- 5.4
-- hhvm
+- 7.0
 script: phpunit Teste.php
+deploy:
+  provider: heroku
+  api_key:
+    secure: dOThrL1Z9PeQ23CjwcNpnW2Dn6NKMU2HHfLuHBperYqzR6KpBOOVaTH9mVvk+d8RSoANpisC7N2w7OU3gnm/N9ekGkdg+UmtpVl71mtTjayx1qQ37cCeG/dfY4r6Fj5fqka4TJ2K14x2uXvzxJLnDwH4Ad9kLkyUXXgOG134fXWVxUyGZl/GKNHDuCV8p4hqSfX6M/kAGBir7N1/7/hJrDLJxqmzeDMJU/4c+w1RUMBZNLvRf7Qibov3ejreflwAvh4rXS7B/RGQqlFdjxA+eGq10tbsV3ZOlw56o3X4f1xzhZkeX5tpddw2WQcBg/UGL10HWxwJHxYUrkmHYNQdJefjdbiuY3vMOSskwOhqKyndjP3XXE93PAJlaPoKvMfrhVUG70B3mC8xwIZ4MkIcVoDf96woNYToR86SknHLvbf6rfVgwIRCOQQRNWnhacxAte7ta3iPFWTmlKN4Y5JxQrqSd6tzDxAuE2VXxqNGUtDNEKIkZZYPM78Wy1GW0MEri+iTmfIfOE+DGXDQbqOgCUhoTGmcQPKcSU0w1xyzjAeax+8G9JANDMFHoOjkq33g33i7n3QX+56B1CZOcmLV5JoCbKoYlWkuca+UphZct6/9lEA+nSZLTWvEg5GI0xOM/FKuRXZAFsSFGXlvitLZiXwxOfyeB1206dXsQ7R4Nlw=
+    on: staging
+    app: circular-ufrn-producao
+
