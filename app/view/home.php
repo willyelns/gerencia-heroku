@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="cursive">Horários do Circular UFRN</h1>
+            <h1 class="cursive">Horários do Circular UFRN apresentação</h1>
             <h2 class="sub">Os próximos horários do circular:</h2>
           </div>
         </div>
