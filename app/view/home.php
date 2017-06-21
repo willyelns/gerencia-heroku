@@ -1,6 +1,6 @@
 
   <body>
-  <?php require_once("C:/xampp71/htdocs/ufrn-bus/routes.php"); ?>
+  <?php require('C:/xampp71/htdocs/ufrn-bus/routes.php'); ?>
     <div style="background-image: url('https://lh3.googleusercontent.com/--OShQ8C_FRo/WUKcqSyem9I/AAAAAAAAHY4/Mc72rFmc-K8IeMsOD29ShCALKZ9GQzDTwCL0BGAYYCw/h606/2017-06-15.png')" class="main"> 
       <div class="overlay"></div>
       <div class="container">
@@ -16,7 +16,7 @@
             <div class="countdown-label">Direto</div>
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-12">
               <div class="text-center">
-              <div id="circular-direto" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>  
+              <div id="circular-direto" class="countdown-number"><?php echo($_GET[verifyNextDir()]);?> <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>
               </div>
             </div>
           </div>

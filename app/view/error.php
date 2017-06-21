@@ -5,8 +5,8 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="cursive">Huum... Você não deveria estar aqui</h1>
-            <h2 class="sub">Volta pra olhar os horários, abestado!</h2>
+              <h1 class="cursive">Huum... Você não deveria estar aqui</h1>
+              <h2 class="sub"><a href="home.php">Volta pra olhar os horários, abestado!</a></h2>
           </div>
         </div>
         <!-- Inverso -->

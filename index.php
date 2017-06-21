@@ -10,8 +10,6 @@ else{
 }
 require_once("app/view/head.php");
 require_once("app/view/home.php");
-require_once("app/view/footer.php");
-require_once("app/view/error.php");
-require_once("app/view/lista-circulares.php");
+require_once("app/view/footer.php")
 ?>
 

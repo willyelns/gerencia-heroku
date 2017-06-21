@@ -6,9 +6,10 @@
  * Time: 02:04
  */
 function call($controller, $action){
-    require_once ('app/Controller' . $controller . '_controller.php');
+    require_once('C:/xampp71/htdocs/ufrn-bus/app/Controller/BusController.php' . $controller . 'BusController.php');
 
-    switch($controller){
+    $controllerKey = $controller;
+    switch($controllerKey){
         case 'bus':
             $controller = new BusController();
             break;
@@ -16,12 +17,14 @@ function call($controller, $action){
     $controller->{$action}();
     $controllers = array('bus' => ['verifyNextDir', 'verifyNextInv', 'home', 'listAllBus', 'error']);
 
-    if(array_key_exists($controller, $controllers)){
-        if(in_array($action, $controllers[$controller])){
-            call($controller,$action);
+    if(array_key_exists($controller, $controllers)) {
+        if (in_array($action, $controllers[$controllerKey])) {
+            call($controller, $action);
+        } else {
+            call($controller, 'error');
         }
-        else{
-
-        }
+    }
+    else{
+        call($controller,'error');
     }
 }
