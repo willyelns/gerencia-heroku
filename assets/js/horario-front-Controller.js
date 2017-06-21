@@ -67,16 +67,18 @@ var circularInverso = new Vue({
       var proximoHorario = [];
       this.listaInverso.forEach(function(item){
         if(new Date().getHours() == item.hora){
-          //console.log(item.hora + ":" + item.minuto);
           if(new Date().getMinutes() <= item.minuto){
-            console.log(item.hora + ":" + item.minuto);
+            console.log(item.hora + ":" + item.minuto + " Inverso");
             proximoHorario.push(item);
           }
         }
+        if(!proximoHorario[0]){
+            console.log("Foi")
+        }
       });
-      this.proximoInversoHora = proximoHorario[0].hora;
-      this.proximoInversoMinuto = proximoHorario[0].minuto;
-      this.proximoInversoEmpresa = proximoHorario[0].empresa;
+      this.proximoInversoHora =  "16";//proximoHorario[0].hora;
+      this.proximoInversoMinuto = "00";//proximoHorario[0].minuto;
+      this.proximoInversoEmpresa = "Guanabara";//proximoHorario[0].empresa;
       console.log(this.proximoInversoEmpresa);
     }
   },
@@ -220,7 +222,7 @@ var circularDireto = new Vue({
     }
   },
   beforeMount(){
-    this.pegarProximoDireto()
-    this.atualizaTempo()
+    this.pegarProximoDireto();
+    this.atualizaTempo();
  }
 });
