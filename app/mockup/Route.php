@@ -184,7 +184,7 @@ class Route
         return $this->routeInv;
     }
 }
-$route = new Route();
+$route = new BusRoute();
 
 foreach ($route->getRouteInv() as $rd){
     echo $rd;

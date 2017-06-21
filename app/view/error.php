@@ -1,13 +1,12 @@
 
-  <body>
-  <?php require_once("C:/xampp71/htdocs/ufrn-bus/routes.php"); ?>
-    <div style="background-image: url('https://lh3.googleusercontent.com/--OShQ8C_FRo/WUKcqSyem9I/AAAAAAAAHY4/Mc72rFmc-K8IeMsOD29ShCALKZ9GQzDTwCL0BGAYYCw/h606/2017-06-15.png')" class="main"> 
+<body>
+    <div style="background-image: url('https://lh3.googleusercontent.com/--OShQ8C_FRo/WUKcqSyem9I/AAAAAAAAHY4/Mc72rFmc-K8IeMsOD29ShCALKZ9GQzDTwCL0BGAYYCw/h606/2017-06-15.png')" class="main">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
-            <h1 class="cursive">Horários do Circular UFRN</h1>
-            <h2 class="sub">Os próximos horários do circular:</h2>
+            <h1 class="cursive">Huum... Você não deveria estar aqui</h1>
+            <h2 class="sub">Volta pra olhar os horários, abestado!</h2>
           </div>
         </div>
         <!-- Inverso -->
@@ -16,7 +15,7 @@
             <div class="countdown-label">Direto</div>
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-12">
               <div class="text-center">
-              <div id="circular-direto" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>  
+              <div id="circular-direto" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>
               </div>
             </div>
           </div>
@@ -24,7 +23,7 @@
             <div class="countdown-label">Inverso</div>
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-12">
               <div class="text-center">
-              <div id="circular-inverso" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>  
+              <div id="circular-inverso" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>
               </div>
             </div>
           </div>
@@ -47,4 +46,3 @@
         </div>
       </div>
     </div>
-    
