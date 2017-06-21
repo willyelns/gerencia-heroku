@@ -6,7 +6,7 @@
  * Date: 6/18/17
  * Time: 4:56 PM
  */
-require_once 'Route.php';
+require_once 'BusRoute.php';
 
 class BusCompany
 {

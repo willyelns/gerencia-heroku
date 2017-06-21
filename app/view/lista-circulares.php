@@ -26,6 +26,7 @@
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
   </head>
   <body>
+  <?php require_once("C:/xampp71/htdocs/ufrn-bus/routes.php"); ?>
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
@@ -36,6 +37,14 @@
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <h2 class="text-center">Direto</h2>
                     <div class="text-center" id="lista-circular-direto">
+                            <h4 v-for="item in lista">
+                                {{item.hora}}:{{item.minuto}} ({{item.empresa}})
+                            </h4>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <h2 class="text-center">Inverso</h2>
+                    <div class="text-center" id="lista-circular-inverso">
                             <h4 v-for="item in lista">
                                 {{item.hora}}:{{item.minuto}} ({{item.empresa}})
                             </h4>
