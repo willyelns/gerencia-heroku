@@ -73,17 +73,11 @@ var circularInverso = new Vue({
             proximoHorario.push(item);
           }
         }
-	if(!proximoHorario[0]){
-	this.proximoInversoHora = "16"//proximoHorario[0].hora;
-     	 this.proximoInversoMinuto = "00"//proximoHorario[0].minuto;
-     	 this.proximoInversoEmpresa = "Guanabara"//proximoHorario[0].empresa;
-	}else{
-		this.proximoInversoHora = proximoHorario[0].hora;
-      		this.proximoInversoMinuto = proximoHorario[0].minuto;
-      		this.proximoInversoEmpresa = proximoHorario[0].empresa;
-      	
-	}
       });
+	    this.proximoInversoHora = proximoHorario[0].hora;
+      this.proximoInversoMinuto = proximoHorario[0].minuto;
+      this.proximoInversoEmpresa = proximoHorario[0].empresa;
+      
       console.log(this.proximoInversoEmpresa);
     }
   },
