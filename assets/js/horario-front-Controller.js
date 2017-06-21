@@ -133,9 +133,14 @@ var app = new Vue({
   },
   methods: {
   	atualizaTempo: function(){
-      this.horaAtualizada = new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds();
+      this.horaAtualizada = this.addZero(new Date().getHours()) + ":" + this.addZero(new Date().getMinutes()) + ":" + this.addZero(new Date().getSeconds());
 			setTimeout(this.atualizaTempo,1000);		    
-		}
+		},
+    addZero: function(number){
+    	if(number < "10"){
+      	return number = "0"+ number;
+      }
+    }
   },
   beforeMount(){
     this.atualizaTempo()
