@@ -7,13 +7,12 @@
  * Time: 5:57 PM
  */
 
-require_once 'Route.php';
+require_once 'BusRoute.php';
 
 class Bus_Model{
     public $busCompany;
     public $nextDeparture;
     public $prevDeparture;
-    public $route;
 
     /**
      * @return BusCompany
