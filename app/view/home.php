@@ -1,6 +1,5 @@
 
   <body>
-  <?php require_once("C:/xampp71/htdocs/ufrn-bus/routes.php"); ?>
     <div style="background-image: url('https://lh3.googleusercontent.com/--OShQ8C_FRo/WUKcqSyem9I/AAAAAAAAHY4/Mc72rFmc-K8IeMsOD29ShCALKZ9GQzDTwCL0BGAYYCw/h606/2017-06-15.png')" class="main"> 
       <div class="overlay"></div>
       <div class="container">
@@ -13,18 +12,20 @@
         <!-- Inverso -->
         <div id="countdown" class="countdown">
           <div class="row">
-            <div class="countdown-label">Direto</div>
+            <div class="countdown-label" style="font-size: 3.5rem; font-weight: bold;">Direto</div>
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-12">
-              <div class="text-center">
-              <div id="circular-direto" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>  
+              <div id="circular-direto" class="text-center" style="font-size:14rem;">
+              <div class="countdown-number">{{proximoDiretoHora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{proximoDiretoMinuto}}</div>  
+               <div class="countdown-label" style="font-size: 2.5rem">({{proximoDiretoEmpresa}})</div>
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="countdown-label">Inverso</div>
+            <div class="countdown-label" style="font-size: 3.5rem; font-weight: bold;">Inverso</div>
             <div class="col-md-12 col-sm-12 col-xs-12 col-lg-12 col-xl-12">
-              <div class="text-center">
-              <div id="circular-inverso" class="countdown-number">{{hora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{minuto}}</div>  
+              <div class="text-center" id="circular-inverso" style="font-size:14rem;">
+                <div class="countdown-number">{{proximoInversoHora}} <span class="thinker-second" style="font-size: 15rem;">:</span> {{proximoInversoMinuto}}</div>  
+                <div class="countdown-label" style="font-size: 2.5rem">({{proximoInversoEmpresa}})</div>
               </div>
             </div>
           </div>

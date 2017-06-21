@@ -26,7 +26,7 @@ class BusController
         $bus->nextDeparture = array_search($bus->busCompany,$rInv->routeInv);
         return $bus;
     }
-    function home(){
+   /*function home(){
         require_once('C:/xampp71/htdocs/ufrn-bus/app/view/home.php');
     }
     function listAllBus(){
@@ -34,5 +34,5 @@ class BusController
     }
     function error(){
         require_once('C:/xampp71/htdocs/ufrn-bus/app/view/error.php');
-    }
+    }*/
 }
