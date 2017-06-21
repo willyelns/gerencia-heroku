@@ -2,13 +2,12 @@
 
 /**
  * Created by PhpStorm.
- * User: raevix
+ * User: Nayana Farias
  * Date: 6/18/17
  * Time: 8:52 PM
  */
-require_once 'BusCompany.php';
 
-class Route{
+class BusRoute{
     public $routeDir = array(
 
         '06:00' => 'Guanabara',
@@ -183,7 +182,7 @@ class Route{
         return $this->routeInv;
     }
 }
-$route = new Route();
+$route = new BusRoute();
 
 foreach ($route->getRouteInv() as $rd){
     echo $rd;
