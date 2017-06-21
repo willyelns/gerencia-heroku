@@ -5,7 +5,7 @@
     <script src="assets/js/jquery.cookie.js"></script>
     <script src="assets/js/jquery.countdown.min.js"></script>
     <script src="assets/js/front.js"></script>
-    <script src="assets/js/horario-front-controller.js"></script>
+    <script src="assets/js/horario-front-Controller.js"></script>
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
     <script>
       (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
